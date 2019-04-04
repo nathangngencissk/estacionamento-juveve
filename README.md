@@ -1,3 +1,3 @@
 # Estacionamento Juvêvê
 
-Static website with gatsby.js, styled-components, Material-UI, typography.js
+Static website with gatsby.js, react-jss, react-bootstrap, typography.js

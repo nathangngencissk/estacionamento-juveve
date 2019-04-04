@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Button from '@material-ui/core/Button';
 import styled from 'styled-components'
 
 const PrimaryButton = styled.button`
@@ -18,15 +17,14 @@ const PrimaryButton = styled.button`
   font-weight: 100;
 `
 
+const alerta = () => {alert("Olá!");}
+
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
-    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
-    <PrimaryButton>Normal Button</PrimaryButton>
+    <PrimaryButton onClick={alerta}>Normal Button</PrimaryButton>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
