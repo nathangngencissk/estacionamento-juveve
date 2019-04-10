@@ -14,20 +14,16 @@ const typography = new Typography({
   bodyFontFamily: ["Georgia", "serif"],
   googleFonts: [
     {
-      name: 'Roboto',
-      styles: [
-        '100',
-        '400'
-      ],
+      name: "Roboto Slab",
+      styles: ["100", "400"],
     },
     {
-      name: 'Merriweather',
-      styles: [
-        '400',
-        '400i',
-        '700',
-        '700i',
-      ],
+      name: "Raleway",
+      styles: ["100", "400"],
+    },
+    {
+      name: "Merriweather",
+      styles: ["400", "400i", "700", "700i"],
     },
   ],
 })
